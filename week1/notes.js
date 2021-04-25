@@ -1,25 +1,25 @@
-let student = {
-    firstName : "Bob",
-    LastName : "Smith",
-    iNumber : '112233444'
-}
+// let student = {
+//     firstName : "Bob",
+//     LastName : "Smith",
+//     iNumber : '112233444'
+// }
 
 
-console.log(student.iNumber);
+// console.log(student.iNumber);
 
-let students = [];
+// let students = [];
 
-students.push(student);
+// students.push(student);
 
 
-//GOOD
-for (var i = 0; i < links.length; i++){
-    //Stuff
-}
+// //GOOD
+// for (var i = 0; i < links.length; i++){
+//     //Stuff
+// }
 
-//BETTER
-links.forEach(
-    link => {
+// //BETTER
+// links.forEach(
+//     link => {
 
-    }
-);
+//     }
+// );
