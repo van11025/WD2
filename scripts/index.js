@@ -6,6 +6,10 @@ const links = [
     {
         label: "Week 2 notes",
         url: "week2/wk2.html"
+    },
+    {
+        label: "Week 3 notes",
+        url: "week3/wk3.html"
     }
 ];
 
