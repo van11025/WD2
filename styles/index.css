@@ -1,6 +1,27 @@
+html{
+    background-color: whitesmoke;
+}
+
+nav{
+margin: 0px;
+width: 100%;
+background-color: lightgray;
+text-align: center;
+}
+
 ul {
+    margin: 0;
+    padding: 0;
     list-style: none;
+    
+}
+li{
+    font-size: 150%;
+    border: solid thin black;
+    border-collapse: collapse;
 }
 a {
+    width: 100%;
+    color:black;
     text-decoration: none;
 }

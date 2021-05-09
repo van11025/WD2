@@ -1,5 +1,9 @@
 const links = [
     {
+        label: "Home",
+        url: "/index.html"
+    },
+    {
         label: "Week 1 notes",
         url: "week1/index.html"
     },
@@ -21,11 +25,11 @@ let ul = document.querySelector('ul');
 
 links.forEach(
     link => {
-        ul.innerHTML += `
-        <li>
-        <a href="${link.url}">${link.label}</a>
-        </li>
-        `;
+        ul.innerHTML += `<a href="${link.url}"><li>${link.label}</li></a>`;
     }
 );
 
+
+function toggleMenu(){
+    document.querySelector('ul').toggleAttribute("hidden");
+}
