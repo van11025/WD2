@@ -1,5 +1,6 @@
 html{
     background-color: whitesmoke;
+    text-align: center;
 }
 
 nav{
@@ -27,4 +28,9 @@ a {
 }
 table{
     width: 100%;
+}
+p{
+    text-align: left;
+    border:solid black;
+    padding: 15px;
 }
