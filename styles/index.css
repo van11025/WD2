@@ -14,7 +14,7 @@ ul {
     margin: 0;
     padding: 0;
     list-style: none;
-    
+    transition: all 2.0s ease;
 }
 li{
     font-size: 150%;
@@ -33,4 +33,9 @@ p{
     text-align: left;
     border:solid black;
     padding: 15px;
+}
+.active{
+    background-color: white;
+    scale: 1.1;
+    border:solid blue;
 }

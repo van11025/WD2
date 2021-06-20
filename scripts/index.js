@@ -26,6 +26,10 @@ const links = [
     {
         label: "Week  7",
         url: "week7/wk7.html"
+    },
+    {
+        label: "Week  9",
+        url: "week9/wk9.html"
     }
 ];
 
@@ -42,6 +46,17 @@ links.forEach(
 );
 
 
-function toggleMenu(){
-    document.querySelector('ul').toggleAttribute("hidden");
-}
+
+function toggleMenu(){    
+    ul.toggleAttribute("hidden");
+    let audio = document.querySelector('audio');
+    let h2 = document.querySelector('h2');
+    if(h2.classList.contains('active')){
+        h2.classList.remove('active')
+    }
+    else{
+        h2.classList.add('active')
+    }
+    audio.currentTime = 0;
+    audio.play();
+};
