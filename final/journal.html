@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Journal App</title>
+    <link rel="stylesheet" href="journal.css">
+</head>
+
+<body>
+    <main>
+
+
+
+        <div id="newEntry" hidden>
+            <input placeholder="Title" id="titleInput">
+            <textarea placeholder="Dear diary...." id="newTextarea"></textarea>
+            <button id="saveButton">Save</button>
+            <button id="cancelButton">Cancel</button>
+        </div>
+
+
+
+
+        <div id="editEntry" hidden>
+            <input placeholder="Title" id="editTitle">
+            <textarea placeholder="Dear diary...." id="editTextarea"></textarea>
+            <div id="modifybuttons">
+                <buttton class="buttonEdit" id="editSave">Save Changes</buttton><br>
+                <buttton class="buttonEdit" id="editDelete">Delete Entry</buttton><br>
+                <buttton class="buttonEdit" id="editCancel">Cancel Changes</buttton><br>
+            </div>
+        </div>
+
+        <div id="main" hidden>
+            <button id="newButton">New Entry</button>
+            <div id="recentEntry"></div>
+            <ul id="entryList"></ul>
+        </div>
+
+    </main>
+
+
+    <script src="journal.js"></script>
+</body>
+
+</html>
